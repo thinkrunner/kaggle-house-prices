@@ -21,15 +21,16 @@ Starting from a baseline score of 0.13640, each step was carefully designed to i
 
 ```
 Raw Data
+  → Data Loading & Missing Value Imputation
+  → ID Separation
   → Outlier Removal
-  → Feature Engineering
-  → Ordinal Encoding (quality columns)
+  → Feature Engineering (numerical + categorical)
   → Target Encoding (high-cardinality categoricals)
   → Skewness Transform (log1p)
   → StandardScaler + One-Hot Encoding
   → Feature Selection (importance > 0 intersection → 79 features)
   → Stacking Ensemble (5-Fold CV)
-  → Submission
+  → Final Prediction & Submission
 ```
 
 ---
