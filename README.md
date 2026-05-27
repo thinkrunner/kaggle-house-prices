@@ -3,6 +3,12 @@
 
 ---
 
+## 🔗 Links
+- [Kaggle Notebook](https://www.kaggle.com/code/thinkrunner/notebook7f7c063978)
+- [Kaggle Competition](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)
+
+---
+
 ## Project Summary
 
 End-to-end ML pipeline for predicting house sale prices using stacking ensemble.  
